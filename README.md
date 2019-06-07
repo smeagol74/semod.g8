@@ -1,5 +1,22 @@
 A [Giter8][g8] template for [System Engineering Modeller (semod)][semod]!
 
+Usage
+-----
+
+#### Generate new project with this template
+
+To generate new `semod` application execute the following command:
+```bash
+$ sbt new smeagol74/semod.g8
+```
+
+#### Run the generated project
+In the created project directory execute the following command to execute the sample
+```bash
+$ sbt run
+```
+ 
+
 Template license
 ----------------
 Written in 2019 by Konstantin Borisov smeagol74@gmai.com
