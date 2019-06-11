@@ -15,6 +15,8 @@ object Main extends App {
 			.file("./$name$.png")
 			.name("$name$")
 			.title("$name$ semod report")
+			// remove .terms row to use default opengroup terminology resource file
+  		.terms("custom")
 			.get,
 		report
 	)
@@ -24,6 +26,8 @@ object Main extends App {
 			.file("./$name$.svg")
 			.name("$name$")
 			.title("$name$ semod report")
+			// remove .terms row to use default opengroup terminology resource file
+			.terms("custom")
 			.get,
 		report
 	)
@@ -33,6 +37,8 @@ object Main extends App {
 			.file("./$name$.puml")
 			.name("$name$")
 			.title("$name$ semod report")
+			// remove .terms row to use default opengroup terminology resource file
+			.terms("custom")
 			.get,
 		report
 	)
@@ -41,6 +47,8 @@ object Main extends App {
 		PlantUml.opt
 			.name("$name$")
 			.title("$name$ semod report")
+			// remove .terms row to use default opengroup terminology resource file
+			.terms("custom")
 			.get,
 		report
 	)
