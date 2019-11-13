@@ -1,4 +1,4 @@
-import ru.kvb74.semod.opengroup.archimate.Report
+import ru.kvb74.semod.Report
 import ru.kvb74.semod.opengroup.archimate.motivation.{Goal, Stakeholder}
 import ru.kvb74.semod.plantuml.PlantUml
 
